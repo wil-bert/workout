@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "182406916821",
+    "firebase_url": "https://workoutapp-67134.firebaseio.com",
+    "project_id": "workoutapp-67134",
+    "storage_bucket": "workoutapp-67134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074451619657:android:6ffa96f591095e3a12c498",
+        "android_client_info": {
+          "package_name": "com.moringaschool.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34414676779-58cp41rv3vpiujk3fn6os57hr61d8dcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtEvjjXcWKPSqkwwi1lJ-O-Glwz2hYcTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34414676779-58cp41rv3vpiujk3fn6os57hr61d8dcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
