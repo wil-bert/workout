@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"/>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -55,6 +60,8 @@
             android:layout_marginTop="20dp"
             android:textStyle="bold"
             android:textSize="15sp"
+            android:background="@color/cardview_dark_background"
+            android:textColor="@color/cardview_light_background"
             android:text="Don't have an account? Sign up here!"
             android:id="@+id/registerTextView"
             android:layout_gravity="center_horizontal" />
