@@ -24,6 +24,10 @@ android {
         }
     }
 
+    buildTypes.each {
+        it.buildConfigField 'String', 'WGER_API_KEY', WgerApiKey
+    }
+
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES.txt'
         exclude 'META-INF/DEPENDENCIES'
@@ -37,6 +41,11 @@ android {
         exclude 'META-INF/notice.txt'
     }
 
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
